@@ -9,7 +9,7 @@
 * OUT: void
 * POST: Box is drawn, refresh is called
 */
-void drawBoarder(int w, int h, char symbol);
+void drawBorder(int w, int h, char symbol);
 
 /*func comment here*/
 void printOnLine(int line, char* string);
@@ -27,7 +27,7 @@ int main() {
     noecho();
 
     //program init
-    drawBoarder(50, 15, '#');
+    drawBorder(50, 15, '#');
     printOnLine(16, "; to quit");
     printOnLine(17, "[ to save to file");
 
@@ -47,7 +47,7 @@ int main() {
     return 0;
 }
 
-void drawBoarder(int w, int h, char symbol) {
+void drawBorder(int w, int h, char symbol) {
     int x;
     int y=0;
 
