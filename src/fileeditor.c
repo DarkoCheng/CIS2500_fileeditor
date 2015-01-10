@@ -26,8 +26,13 @@ int main() {
     cbreak();
     noecho();
 
+    //Getting max board size.
+    int boundX = 0;
+    int boundY = 0;
+    getmaxyx(stdscr,boundY,boundX);
+
     //program init
-    drawBorder(50, 15, '#');
+    drawBorder(boundX-1, boundY-1, '#');
     printOnLine(16, "; to quit");
     printOnLine(17, "[ to save to file");
 
