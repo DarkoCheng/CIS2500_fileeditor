@@ -3,6 +3,12 @@ A file editor maintained by CIS2500 students at the University of Guelph
 
 This project is designed as a learning experiment, and is meant as an outlet where students can familarize themselves with concepts taught in the course.
 
+## How to Compile and Run
+
+1. run 'make'
+2. run 'make run'
+3. run 'make clean' to delete the binary/executable before committing
+
 ## To Do/Current Work
 For details on what needs to be done, or how you can help, look at the [issue page][issue]. There is no required skill set for contributing, and anyone may help regardless of their ability.
 
