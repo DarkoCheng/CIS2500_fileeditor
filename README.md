@@ -39,3 +39,9 @@ We will maintain the code for Raspbian, as well as OSX.
 
 ## Help?
 Confused about something? Feel free to ask.
+
+## Video demonstrating how you can contribute
+A video made a by @Fogest (classmate) showing how you can contribute to this project in case the above instructions were not clear enough.
+[Click here to view the video][video]
+
+[video]: http://youtu.be/XiU3EUWd5kc
